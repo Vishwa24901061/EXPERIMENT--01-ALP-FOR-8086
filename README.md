@@ -1,7 +1,10 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+
+Name : VISHWA V
+
+Roll no : 212224110062
+
+Date of experiment : 27-04-2026
 
 
 
@@ -78,27 +81,101 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
+```
+MOV AL,74H
+MOV BL,69H
+ADD AL,BL
+HLT
+```
 
 
 ## Output  
- 
+ ![Screenshot 2025-02-28 083119](https://github.com/user-attachments/assets/3d4f0f07-fb87-4e32-bb8d-c3d5d2dbace3)
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+MOV AL,74H
+MOV BL,69H
+SUB AL,BL
+HLT
+```
 ## Output  
+![Screenshot 2025-02-28 083443](https://github.com/user-attachments/assets/59fb8c36-1920-4378-9611-083d2f1f4f08)
 ## Multiplication alp 
+```
+org 100h
+MOV AL,75H
+MOV BL,32H
+MUL BL
+HLT
+ret
+```
  ## Output  
-
+![Screenshot 2025-02-28 084501](https://github.com/user-attachments/assets/47c0e819-6ca6-4ca0-96fa-a67fbc489dc0)
 
 ## Division alp 
-
+```
+org 100h
+MOV AL,70H
+MOV BL,10H
+DIV BL
+HLT
+ret
+```
 ## Output  
+![Screenshot 2025-02-28 085310](https://github.com/user-attachments/assets/9d192f60-580f-4e2e-b364-a9a5ea16c975)
 
+## AND GATE OF 8 BIT ALP:
+```
+org 100h
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+ret
+```
+## OUTPUT:
+![Screenshot 2025-02-28 085449](https://github.com/user-attachments/assets/2102ce1d-68f8-4a62-bf5b-0d8854dc211a)
+
+
+## OR GATE OF 8 BIT ALP:
+```
+org 100h
+MOV AL,33H
+MOV BL,44H
+OR AL,BL
+HLT
+ret
+```
+## OUTPUT:
+![Screenshot 2025-02-28 085953](https://github.com/user-attachments/assets/a83f45b0-01dc-4de5-b4d0-01f8b4b59371)
+
+
+## NOT GATE OF 8 BIT ALP:
+```
+org 100h
+MOV AL,65H
+NOT AL
+HLT
+ret
+```
+## OUTPUT:
+![Screenshot 2025-02-28 090356](https://github.com/user-attachments/assets/042fe44d-6ba6-4cd3-ad1b-fc038502d2ec)
+
+
+## XOR GATE OF 8 BIT ALP:
+```
+org 100h
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+ret
+```
+## OUTPUT:
+![Screenshot 2025-02-28 091023](https://github.com/user-attachments/assets/e4d10e74-fa8b-49bf-ae28-2a96952ce952)
 
 ## Result :
- 
-
-
+Thus the program has been executed successfully.
 
 
 
